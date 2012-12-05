@@ -15,7 +15,7 @@
 
 class Integer
 	def palindrome?
-		str = "#{self}"
+		str = self.to_s
 		(str == str.reverse)
 	end
 end
