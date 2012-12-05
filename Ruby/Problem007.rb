@@ -11,7 +11,6 @@
 # What is the 10 001st prime number?
 #
 # ======================================================
-# Answer: 104743
 
 require "prime"
 
