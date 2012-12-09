@@ -20,8 +20,6 @@
 
 start_time = Time.now
 
-x = ((1..100).map {|i| i**2}).reduce(:+)
-y = (1..100).reduce(:+)**2
-puts y - x
+puts (1..100).reduce(:+)**2 - ((1..100).map {|i| i**2}).reduce(:+)
 
 puts "Found in #{Time.now - start_time}s"
